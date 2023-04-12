@@ -1,7 +1,8 @@
 import React, { useReducer } from "react";
 
 const initialState = {
-          usecase1Data:[{id:101,table_name:"interview.geography_columns",column_name:"city_name",value:"che"},{id:101,table_name:"interview.geography_columns",column_name:"city_name",value:"mum"},{id:101,table_name:"interview.geography_columns",column_name:"city_name",value:"banglore"},{id:101,table_name:"interview.geography_columns",column_name:"city_name",value:"cochin"}]
+          usecase1Data:[{id:101,table_name:"interview.geography_columns",column_name:"city_name",value:"che"},{id:102,table_name:"interview.geography_columns",column_name:"city_name",value:"mum"},{id:103,table_name:"interview.geography_columns",column_name:"city_name",value:"banglore"},{id:104,table_name:"interview.geography_columns",column_name:"city_name",value:"cochin"}],
+          usecase2Data:[{id:101,address:"https://www.go-yubi.com/",status:"SUCCESS"},{id:102,address:"https://www.google.com/",status:"SUCCESS"},{id:103,address:"https://rera.goa.gov.in/reraApp/",status:"FAILURE"},{id:104,address:"https://www.linkedin.com/",status:"SUCCESS"}]
 };
 
 function reducer(state, action) {
